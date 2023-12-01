@@ -1,5 +1,32 @@
 # Getting Started with Create React App
 
+## installation
+
+1) Downloads from official website
+  https://nodejs.org/
+
+2) Extract the tar file
+tar -xJf node-<version>-linux-x64.tar.xz
+3) move to the user folder
+sudo mv node-<version>-linux-x64 /usr/local/node
+4) Add Node.js to the system PATH:
+echo 'export PATH=$PATH:/usr/local/node/bin' >> ~/.bashrc
+source ~/.bashrc
+5) check version
+node -v
+npm -v
+
+6) create project
+npx create-react-app react_demo
+
+## Installation
+  bootstrap
+  reactstrap
+  axios // calling apis (server)
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
